@@ -1,0 +1,18 @@
+{
+  "name": "1.5B",
+  "vocab_size": 40000,
+  "n_layer": 25,
+  "n_head": 18,
+  "n_kv_head": 6,
+  "d_model": 2304,
+  "ffn_hidden": 6144,
+  "max_seq_len": 1024,
+  "dropout": 0.0,
+  "tie_word_embeddings": true,
+  "rope_theta": 10000.0,
+  "norm_eps": 1e-06,
+  "bias": false,
+  "init_std": 0.02,
+  "lr": 2e-4,
+  "note": "嘉桦1.1 主力配置：25 层 / 2304 维 / 18 头（GQA，6 组 K/V）/ SwiGLU 6144 / 4 万词表 / 上下文 1024。实测总参数 1,507,855,104。"
+}

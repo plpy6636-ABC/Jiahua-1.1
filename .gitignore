@@ -1,0 +1,11 @@
+# 训练产物
+out_*/
+__pycache__/
+*.pyc
+
+# 生成的分词表（第一次训练时自动重建）
+tokenizer.json
+
+# 权重文件
+*.pt
+*.pth

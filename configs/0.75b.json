@@ -1,0 +1,20 @@
+{
+  "name": "0.75B",
+  "vocab_size": 40000,
+  "n_layer": 24,
+  "n_head": 12,
+  "n_kv_head": 12,
+  "d_model": 1536,
+  "ffn_hidden": 4224,
+  "max_seq_len": 1024,
+  "dropout": 0.0,
+  "tie_word_embeddings": true,
+  "rope_theta": 10000.0,
+  "norm_eps": 1e-06,
+  "bias": false,
+  "init_std": 0.02,
+  "lr": 3e-4,
+  "batch_size": 4,
+  "grad_accum": 8,
+  "note": "0.75B 配置（嘉桦1.0 主力）：24 层 / 1536 维 / 12 头 / SwiGLU 4224 / 4 万词表 / 上下文 1024。"
+}
